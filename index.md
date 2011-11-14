@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: A super epic, HTML5 Boilerplate & "320 and up" enhanced blog
+title: StreamQ: the site
 ---
-# Welcome to the blog of Florian Holzner
-Behold, epic tales of awesomeness await thee who enters my realm!
+# This is the official StreamQ site.
+Welcome to StreamQ, have a nice day!
