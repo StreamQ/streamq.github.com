@@ -291,6 +291,9 @@ background-color : transparent; }
 /* 8.BANNER */
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+.post-header{
+border-bottom-style : solid;
+}
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
