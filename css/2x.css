@@ -38,8 +38,18 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
+h1 {
+text-align:center;
+}
 /* 9.NAVIGATION */
 /* 10.CONTENT */
+.post-header{
+border-bottom-style : solid;
+border-color : #999966;
+border-width : 1px;
+padding: 10px 0px 10px 0px;
+}
+
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */

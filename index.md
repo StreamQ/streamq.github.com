@@ -1,6 +1,8 @@
 ---
 layout: frontpage
-title: StreamQ the site
+title: StreamQ
 ---
+<!---
 # This is the official StreamQ site.
-Welcome to StreamQ, have a nice day!
+-->
+Welkom bij StreamQ, wij specialiseren ons in multimediasystemen voor streaming van video en audio, waar je maar wil.
