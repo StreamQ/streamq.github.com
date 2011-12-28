@@ -106,7 +106,7 @@ background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
 body { 
 margin : 0 auto;
-padding : 24px 0;
+padding : 0 0;
 width : 90% /* 252px */;
 font : 100%/1.4 Futura,Arial,Sans-Serif;
 color : rgb(40,40,40); 
@@ -127,7 +127,7 @@ margin-bottom : .75em;
 font-size : 3em; /* 48 / 16 = 3 */
 line-height : 1.2; }
 
-h1:first-letter {
+h1:first-letter,h2:first-letter {
 color: #1777AF;
 }
 h2 { 

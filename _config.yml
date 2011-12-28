@@ -3,8 +3,13 @@ auto: true
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test"]
 
-owner-name: your name
-owner-page: your homepage
-owner-email: your email
+owner-name: Bram Verbruggen
+owner-email: bram.verbruggen@gmail.com
 
-license: your license of choice
+title: StreamQ
+
+navigation:
+- text: Home
+  url: index.html
+- text: Over Ons
+  url: about.html
