@@ -1,0 +1,12 @@
+  <div class="navigation">
+    {% for link in site.navigation %}
+      {% assign current = nil %}
+      {% if page.url == link.url or page.layout == link.layout %}
+        {% assign current = 'current' %}
+      {% else %}
+	{% assign current = 'navigation' %}
+      {% endif %}
+
+        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+    {% endfor %}
+  </div>
