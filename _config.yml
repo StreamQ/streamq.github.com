@@ -10,6 +10,12 @@ title: StreamQ
 
 navigation:
 - text: Home
-  url: index.html
-- text: Over Ons
-  url: about.html
+  url: /index.html
+- text: Info
+  url: /about.html
+- text: Producten
+  url: /products.html
+- text: Blog
+  url: /blog.html
+
+license: &#0169; 2012 All rights reserved

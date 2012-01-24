@@ -1,4 +1,4 @@
-/* 2x 
+/* 320
 
 _____________________________________________________
 
@@ -31,10 +31,20 @@ _____________________________________________________
 */
 
 /* 1.ROOT */
+/*
+body {
+width: 100%;
+}
+*/
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
+img.post-img {
+max-width: 40%;
+float: left;
+margin: 5px 5px 5px 0px;
+}
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
@@ -44,9 +54,10 @@ text-align:center;
 /* 9.NAVIGATION */
 .navigation {
 background-color: #1777AF;
-color: #FFFFFF;
-text-align: center;
+padding: 5px 15px 5px 15px;
 text-transform: uppercase;
+text-align: center;
+font-size: 90%;
 margin-bottom: 10px;
 -webkit-border-bottom-right-radius: 15px;
 -webkit-border-bottom-left-radius: 15px;
@@ -54,6 +65,16 @@ margin-bottom: 10px;
 -moz-border-radius-bottomleft: 15px;
 border-bottom-right-radius: 15px;
 border-bottom-left-radius: 15px;
+}
+.navigation ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+}
+.navigation li {
+display:inline;
+padding : 0 5px 0 5px;
 }
 /*
 .navigation > * {
@@ -67,28 +88,59 @@ border-bottom-left-radius: 15px;
 	width:100%
 }
 */
-a.navigation,
-a.navigation:visited {
+a.nav,
+a.nav:visited {
 outline : none;
 color : #FFFFFF;
 text-decoration : none; }
 
-a.navigation:hover {
+a.nav:hover {
 outline : none;
 color : #FFFFFF;
-text-decoration : underline; }
-
-a.navigation:active,
-a.navigation:focus {
+}
+a.nav:active,
+a.nav:focus,a.navcurrent:focus,a.navcurrent:active {
 outline : none;
-color : #FFFFFFF; }
+color : #999966; }
+
+a.navcurrent,
+a.navcurrent:visited {
+outline : none;
+color : #999966;
+text-decoration : none; }
 
 /* 10.CONTENT */
-.post-header{
+.post{
 border-bottom-style : solid;
 border-color : #999966;
 border-width : 1px;
-padding: 10px 0px 10px 0px;
+}
+.post-header h3{
+margin-bottom: 0;
+background-color: #1777AF;
+text-align: center;
+}
+.post-header a,
+a.visited {
+outline : none;
+color : #FFFFFF;
+text-decoration : none; }
+
+.post-header a:hover {
+outline : none;
+color : #FFFFFF;
+}
+
+.post-header a:visited {
+outline : none;
+color : #FFFFFF;
+.post-header {
+margin: 10px 0 10px 0;
+}
+
+.post-info {
+font-size:80%;
+font-style: italic;
 }
 
 /* 11.MAIN */

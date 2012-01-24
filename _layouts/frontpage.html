@@ -3,15 +3,20 @@ layout: default
 ---
 {{ content }}
 <header>
-<h2>Posts</h2>
+<h2>Blog</h2>
 </header>
-{% for ps in site.posts %}
-<section>
+{% for ps in site.posts limit: 3 %}
+<article class="post">
 <header class="post-header">
-<hgroup>
 <h3><a href="{{ ps.url }}">{{ ps.title }}</a></h3>
-<time datetime="{{ ps.date }}" pubdate>{{ ps.date }}</time>
-</hgroup>
+<span class="post-info">Geplaatst op <time datetime="{{ ps.date }}" pubdate>{{ ps.date | date: "%d/%m/%y" }}</time> door {{ ps.author }}</span>
 </header>
-</section>
+<p>
+{% if ps.image != null %}
+<img class="post-img" src="/img/posts/{{ ps.image }}" />
+{% endif %}
+{{ps.content | strip_html | truncatewords:40 }}
+<br /><a href="{{ ps.url }}">Lees het volledige artikel</a>
+</p>
+</article>
 {% endfor %}

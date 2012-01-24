@@ -1,0 +1,126 @@
+/* 2x 
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+h1 {
+text-align:center;
+}
+/* 9.NAVIGATION */
+.navigation {
+background-color: #1777AF;
+padding: 5px 15px 5px 15px;
+text-transform: uppercase;
+text-align: center;
+font-size: 90%;
+margin-bottom: 10px;
+-webkit-border-bottom-right-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.navigation ul {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+}
+.navigation li {
+display:inline;
+padding : 0 5px 0 5px;
+}
+/*
+.navigation > * {
+	display:inline-block
+}
+.navigation:after {
+	content:"\0020";
+	display:inline-block;
+	height:0;
+	overflow:hidden;
+	width:100%
+}
+*/
+a.nav,
+a.nav:visited {
+outline : none;
+color : #FFFFFF;
+text-decoration : none; }
+
+a.nav:hover {
+outline : none;
+color : #FFFFFF;
+}
+a.nav:active,
+a.nav:focus,a.navcurrent:focus,a.navcurrent:active {
+outline : none;
+color : #999966; }
+
+a.navcurrent,
+a.navcurrent:visited {
+outline : none;
+color : #999966;
+text-decoration : none; }
+
+/* 10.CONTENT */
+.post{
+border-bottom-style : solid;
+border-color : #999966;
+border-width : 1px;
+}
+.post-header h3{
+margin-bottom: 0;
+}
+.post-header {
+margin-bottom: 10px;
+}
+
+.post-info {
+font-size:80%;
+font-style: italic;
+}
+
+/* 11.MAIN */
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

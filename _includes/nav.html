@@ -1,12 +1,14 @@
   <div class="navigation">
+<ul>
     {% for link in site.navigation %}
-      {% assign current = nil %}
+      {% assign nav = nil %}
       {% if page.url == link.url or page.layout == link.layout %}
-        {% assign current = 'current' %}
+        {% assign nav = 'navcurrent' %}
       {% else %}
-	{% assign current = 'navigation' %}
+	{% assign nav = 'nav' %}
       {% endif %}
 
-        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+	<li><a class="{{ nav }}" href="{{ link.url }}">{{ link.text }}</a></li>
     {% endfor %}
+</ul>
   </div>
