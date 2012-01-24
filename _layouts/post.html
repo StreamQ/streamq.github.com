@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
+<header class="post-header">
+<h2>{{ page.title }}</h2>
+<span class="post-info">Geplaatst op <time datetime="{{ page.date }}" pubdate>{{ page.date | date: "%d/%m/%y" }}</time> door {{ page.author }}</span>
+</header>
 <div id="post">
+{% if page.image != null %}
+<img class="post-img-full" src="/img/posts/{{ page.image }}" />
+{% endif %}
 {{ content }}
 </div>
 

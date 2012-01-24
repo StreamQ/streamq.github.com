@@ -45,6 +45,14 @@ max-width: 40%;
 float: left;
 margin: 5px 5px 5px 0px;
 }
+img.post-img-full {
+max-width: 100%;
+margin-left: auto;
+margin-right:auto;
+margin-top: 5px;
+margin-bottom: 10px;
+display: block;
+}
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
@@ -57,7 +65,7 @@ background-color: #1777AF;
 padding: 5px 15px 5px 15px;
 text-transform: uppercase;
 text-align: center;
-font-size: 90%;
+font-size: 100%;
 margin-bottom: 10px;
 -webkit-border-bottom-right-radius: 15px;
 -webkit-border-bottom-left-radius: 15px;
@@ -110,16 +118,24 @@ color : #999966;
 text-decoration : none; }
 
 /* 10.CONTENT */
-.post{
+.post {
+}
+.post-hr{
 border-bottom-style : solid;
 border-color : #999966;
 border-width : 1px;
+clear:both;
 }
-.post-header h3{
+.post-header h3,.post-header h2{
+color: white;
 margin-bottom: 0;
 background-color: #1777AF;
 text-align: center;
 }
+.post-header h3:first-letter,.post-header h2:first-letter {
+color:white;
+}
+
 .post-header a,
 a.visited {
 outline : none;
@@ -134,8 +150,11 @@ color : #FFFFFF;
 .post-header a:visited {
 outline : none;
 color : #FFFFFF;
+}
+
 .post-header {
 margin: 10px 0 10px 0;
+clear: both;
 }
 
 .post-info {
