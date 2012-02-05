@@ -1,4 +1,4 @@
-/* 1382 
+/* 1382
 
 _____________________________________________________
 
@@ -39,9 +39,54 @@ _____________________________________________________
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
-/* 10.CONTENT */
+.topbar {
+float:left;
+width: 10%;
+background-color: #FFFFFF;
+display: block;
+}
+div.navigation {
+}
+
+
+.navigation ul 
+{
+margin:0;
+padding:0;
+}
+
+.navigation li {
+text-transform: capitalize;
+padding:0;
+font-size: 150%;
+text-align: left;
+font-style: italic;
+display: block;
+}
+.side {
+float: left;
+width: 10%;
+background-color: #FFFFFF;
+display: block;
+}
+* 10.CONTENT */
 /* 11.MAIN */
+
 /* 12.COMPLIMENTARY */
+.content-right {
+float: left;
+width: 25%;
+display: inline;
+}
+
+.main {
+float: left;
+display: inline;
+width: 65%;
+padding: 0px 50px 0px 50px;
+}
+
+
 /* 13.CONTENTINFO */
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */

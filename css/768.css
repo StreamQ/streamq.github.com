@@ -39,9 +39,51 @@ _____________________________________________________
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
-/* 10.CONTENT */
+.topbar{
+border-bottom-style:solid;
+border-color: #5A9E94;
+border-width: 5px;
+}
+.logo {
+margin: 0;
+padding: 0;
+float:left;
+}
+
+div.navigation {
+float:right;
+vertical-align: bottom;
+}
+
+
+.navigation ul 
+{
+}
+
+.navigation li {
+text-transform: capitalize;
+font-size: 150%;
+text-align: left;
+font-style: italic;
+}
+* 10.CONTENT */
 /* 11.MAIN */
+
 /* 12.COMPLIMENTARY */
+.content-right {
+float: left;
+width: 25%;
+display: inline;
+}
+
+.main {
+float: left;
+display: inline;
+width: 65%;
+padding: 0px 50px 0px 0px;
+}
+
+
 /* 13.CONTENTINFO */
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */

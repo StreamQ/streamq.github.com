@@ -23,20 +23,19 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 {% include boilerplate_css_scripts.html %}
 
 <body class="clearfix">
-{% include nav.html %}
-<header role="banner" class="clearfix">
-<h1>{{ site.title }}</h1>
-</header>
 
 <div class="content clearfix">
-
+<header role="banner" class="clearfix topbar" >
+<h1 class="logo"> {{ site.title }}</h1>
+{% include nav.html %}
+</header>
 <article role="main" class="main">
 {{ content }}
 </article>
-
-<aside role="complementary">
+<aside role="complementary" class="content-right">
+<h2>Over Ons</h2>
+Welkom bij StreamQ, wij specialiseren ons in multimediasystemen voor streaming van video en audio, waar je maar wil.
 </aside>
-
 </div>
 
 <footer role="contentinfo" class="clearfix">
