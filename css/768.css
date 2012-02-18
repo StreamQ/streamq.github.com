@@ -31,6 +31,9 @@ _____________________________________________________
 */
 
 /* 1.ROOT */
+body {
+width: 90%;
+}
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
@@ -40,9 +43,8 @@ _____________________________________________________
 /* 8.BANNER */
 /* 9.NAVIGATION */
 .topbar{
-border-bottom-style:solid;
-border-color: #5A9E94;
-border-width: 5px;
+position: relative;
+
 }
 .logo {
 margin: 0;
@@ -51,8 +53,9 @@ float:left;
 }
 
 div.navigation {
-float:right;
-vertical-align: bottom;
+position: absolute;
+bottom: 0;
+right: 0;
 }
 
 
@@ -66,21 +69,21 @@ font-size: 150%;
 text-align: left;
 font-style: italic;
 }
-* 10.CONTENT */
+/* 10.CONTENT */
 /* 11.MAIN */
 
 /* 12.COMPLIMENTARY */
-.content-right {
-float: left;
-width: 25%;
+.col-right {
 display: inline;
+float: left;
+width: 35%;
 }
 
 .main {
 float: left;
 display: inline;
-width: 65%;
-padding: 0px 50px 0px 0px;
+width: 60%;
+margin: 0 5% 0 0;
 }
 
 

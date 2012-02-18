@@ -1,5 +1,4 @@
 ---
 layout: frontpage
-title: Over Ons
+title: Home 
 ---
-Welkom bij StreamQ, wij specialiseren ons in multimediasystemen voor streaming van video en audio, waar je maar wil.

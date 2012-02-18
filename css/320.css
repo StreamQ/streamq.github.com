@@ -31,10 +31,33 @@ _____________________________________________________
 */
 
 /* 1.ROOT */
-/*
 body {
 width: 100%;
 }
+.content {
+}
+.col-right {
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+box-shadow:  1px 3px 3px #888;
+border-style:solid;
+border-color: #5A9E94;
+border-width: 5px;
+padding: 20px 20px 20px 20px;
+}
+.main {
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+box-shadow:  2px 3px 3px #888;
+border-style:solid;
+border-color: #CFC7A4;
+border-width: 5px;
+padding: 20px 20px 20px 20px;
+margin-bottom: 25px;
+}
+/*
 */
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
@@ -58,8 +81,15 @@ display: block;
 /* 8.BANNER */
 h1 {
 text-align:center;
+margin: 0 0 20px 0 ;
 }
 /* 9.NAVIGATION */
+.topbar {
+border-bottom-style:solid;
+border-color: #5A9E94;
+border-width: 5px;
+margin: 0 0 25px 0;
+}
 .navigation {
 padding: 0;
 text-transform: uppercase;
@@ -108,10 +138,12 @@ clear:both;
 }
 .post-header h3,.post-header h2{
 color: white;
-margin-bottom: 0;
+margin-bottom: 5px;
 background-color: #5A9E94;
 text-align: center;
 padding: 5px 0px 5px 0px;
+/*box-shadow:  0px 3px 3px #888;*/
+text-shadow: #3D6B64 -1px -1px 0; 
 }
 
 a.postlink,
@@ -131,7 +163,7 @@ color : #FFFFFF;
 }
 
 .post-header {
-margin: 10px 0 10px 0;
+margin: 0 0 10px 0;
 clear: both;
 }
 
@@ -148,14 +180,19 @@ margin-right:auto;
 background-color: #CFC7A4;
 padding: 10px 5px 10px 5px;
 width: 50%;
--webkit-bordert-radius: 15px;
+-webkit-border-radius: 15px;
 -moz-border-radius: 15px;
 border-radius: 15px;
+/*box-shadow:  0px 3px 3px #888;*/
+text-shadow: #888 -1px -1px 0; 
 }
 
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
+footer {
+margin-top: 25px;
+}
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */
