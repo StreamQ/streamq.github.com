@@ -64,7 +64,8 @@ margin-bottom: 25px;
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
 .logo {
-max-width: 10%;
+max-width: 8%;
+margin: 5px 0px 5px 0px;
 }
 img.post-img {
 max-width: 40%;
