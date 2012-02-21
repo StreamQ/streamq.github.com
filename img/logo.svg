@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="264.46875"
+   height="228.50003"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-30.195054,-48.677914)"
+     id="layer1">
+    <path
+       d="M 379.36548,386.27627 C 450.76002,281.12153 19.436872,363.60025 124.59162,434.99479 229.74636,506.38932 147.26764,75.066175 75.873103,180.22092 4.4785659,285.37566 435.80171,202.89694 330.64697,131.50241 225.49223,60.107869 307.97095,491.43102 379.36548,386.27627 z"
+       transform="translate(118.2023,99.433691)"
+       id="path3022"
+       style="fill:#ffffff" />
+    <g
+       transform="matrix(0,-1,1,0,-187.94545,494.32152)"
+       id="g2988"
+       style="fill:#cfc7a4;fill-opacity:1;stroke:#000000;stroke-width:1.10000002;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">
+      <path
+         d="m 259.09375,246.65625 c -4.1164,0.004 -7.85645,3.75862 -7.84375,7.875 l 0,247.59375 c -0.0127,4.11638 3.72735,7.87133 7.84375,7.875 l 32.75,0 c 4.1164,-0.004 7.85645,-3.75862 7.84375,-7.875 l 0,-207.6875 129.71875,0 c 0.23771,48.16423 -0.0524,87.58412 0.18526,130.5 l -107.79547,0.125 c -4.1164,0.004 -7.85645,3.75862 -7.84375,7.875 l 0.0312,33.96875 c 0.02,4.09554 3.74816,7.80888 7.84375,7.8125 l 148.95396,0.21875 c 4.10597,0.006 7.84375,-3.73778 7.84375,-7.84375 l 0,-212.5625 c 0,-4.1164 -3.72735,-7.87133 -7.84375,-7.875 l -211.6875,0 z"
+         transform="translate(-33.543894,-27.953246)"
+         id="path3777"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#cfc7a4;fill-opacity:1;stroke:#000000;stroke-width:1.10000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+    </g>
+    <rect
+       width="190.08208"
+       height="3.9933209"
+       ry="1.9966605"
+       x="236.40459"
+       y="656.22473"
+       id="rect3028"
+       style="fill:#ffffff" />
+  </g>
+  <g
+     transform="translate(-30.195054,-48.677914)"
+     id="layer2">
+    <text
+       x="85.275879"
+       y="222.19312"
+       id="text2986"
+       xml:space="preserve"
+       style="font-size:186.38082886px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="85.275879"
+         y="222.19312"
+         id="tspan2988"
+         style="font-size:186.38082886px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Virtual DJ;-inkscape-font-specification:Virtual DJ">S</tspan></text>
+  </g>
+</svg>

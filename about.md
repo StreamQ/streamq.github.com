@@ -2,9 +2,10 @@
 layout: default
 title: Info
 ---
-StreamQ richt zich op het aanleveren van multimediaoplossingen op formaat. Onze producten en diensten laten u toe om audio en video op een eenvoudige manier toegankelijk te maken in en rond het huis.
+##The Future Is Now
+Digitale media is niet meer weg te denken uit de moderne woonkamer. Audio, video en foto's worden steeds meer in digitaal formaat aangeboden. Een centrale media hub is een systeem dat al deze media bevat en kan aanbieden aan uw TV, smartphone of tablet, en dit via uw thuisnetwerk.
 
-Op onze blog volgen we de nieuwste trends en evoluties in de sector. We geven ook aantal tips voor de doe-het-zelfers, die thuis wil experimenteren met een htpc opstelling.
+StreamQ wil u helpen bij het integreren van een media hub in uw huis.
 
 ##Contacteer ons
 StreamQ  

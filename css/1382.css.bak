@@ -1,0 +1,96 @@
+/* 1382
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+.topbar {
+float:left;
+width: 10%;
+background-color: #FFFFFF;
+display: block;
+}
+div.navigation {
+position: relative;
+}
+
+
+.navigation ul 
+{
+margin:0;
+padding:0;
+}
+
+.navigation li {
+text-transform: capitalize;
+padding:0;
+font-size: 150%;
+text-align: left;
+font-style: italic;
+display: block;
+}
+.side {
+float: left;
+width: 10%;
+background-color: #FFFFFF;
+display: block;
+}
+* 10.CONTENT */
+/* 11.MAIN */
+
+/* 12.COMPLIMENTARY */
+.content-right {
+float: left;
+width: 25%;
+display: inline;
+padding: 50px 50px 0px 50px;
+}
+
+.main {
+float: left;
+display: inline;
+width: 65%;
+padding: 50px 50px 0px 50px;
+}
+
+
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

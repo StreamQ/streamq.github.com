@@ -157,7 +157,14 @@ outline : none;
 color : #FFFFFF;
 }
 
-a.postlink:visited {
+
+a.morelink,
+a.morelink:visited {
+outline : none;
+color: #CFC7A4;
+text-decoration : none; }
+
+a.morelink:hover {
 outline : none;
 color : #FFFFFF;
 }
@@ -173,19 +180,53 @@ font-style: italic;
 }
 
 h3.moreposts{
-text-align:center;
-color: white;
+/*text-align:center;
 margin-left:auto;
-margin-right:auto;
-background-color: #CFC7A4;
-padding: 10px 5px 10px 5px;
-width: 50%;
--webkit-border-radius: 15px;
--moz-border-radius: 15px;
-border-radius: 15px;
-/*box-shadow:  0px 3px 3px #888;*/
-text-shadow: #888 -1px -1px 0; 
+margin-right:auto;*/
+
 }
+#more{
+  color: #5A9E94;
+  display:inline-block;
+  overflow:hidden;
+  position:relative;
+  text-decoration:none;
+  width:auto
+  font-weight: bold;
+ }
+#more{padding:0.5em 1.5em}
+#more{text-align:right}
+#more:before,#more:after{
+   background-color: #5A9E94;
+   -moz-border-radius:0.25em;
+   -webkit-border-radius:0.25em;
+   border-radius:0.25em;
+   content:"";
+   display:block;
+   height:0.5em;
+   position:absolute;
+   right:0;
+   top:50%;
+   width:1em
+  }
+  #more:before{
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg)
+   }
+  #more:after{
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg)
+   }
+  #more:before{margin-top:-.36em}
+  #more:hover,#more:focus{color:#c00}
+  #more:hover:before,#more:hover:after,
+  #morE:focus:before,#more:focus:after {background:#c00}
 
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
