@@ -52,7 +52,7 @@ padding: 20px 20px 20px 20px;
 border-radius: 15px;
 box-shadow:  2px 3px 3px #888;
 border-style:solid;
-border-color: #CFC7A4;
+border-color: #EA6B1B;
 border-width: 5px;
 padding: 20px 20px 20px 20px;
 margin-bottom: 25px;
@@ -128,7 +128,7 @@ color : #5A9E94; }
 a.navcurrent,
 a.navcurrent:visited {
 outline : none;
-color : #CFC7A4;
+color : #EA6B1B;
 text-decoration : none; }
 
 /* 10.CONTENT */
