@@ -102,7 +102,7 @@ padding : 0; }
 
 html {
 overflow-y : scroll;
-background : #FFFFFF /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
+background : #DBD7D2 /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
 body { 
 margin : 0 auto;
@@ -110,7 +110,7 @@ padding : 0 0;
 width : 90% /* 252px */; 
 font : 90%/1.4 Arial,Sans-Serif;
 color : rgb(40,40,40); 
-background-color : #FFFFFF}
+background-color : #DBD7D2}
 
 /* 2.HEADINGS */
 

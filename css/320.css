@@ -45,6 +45,7 @@ border-style:solid;
 border-color: #E2492F;
 border-width: 5px;
 padding: 20px 20px 20px 20px;
+background-color:#FFFFFF;
 }
 .main {
 -webkit-border-radius: 15px;
@@ -56,6 +57,7 @@ border-color: #E2492F;
 border-width: 5px;
 padding: 20px 20px 20px 20px;
 margin-bottom: 25px;
+background-color:#FFFFFF;
 }
 /*
 */
@@ -131,7 +133,7 @@ color : #E2492F; }
 a.navcurrent,
 a.navcurrent:visited {
 outline : none;
-color : #5A9E94;
+color : #8b8589;
 text-decoration : none; }
 
 /* 10.CONTENT */
@@ -192,7 +194,7 @@ margin-right:auto;*/
 
 }
 #more{
-  color: #5A9E94;
+  color: #E2492F;
   display:inline-block;
   overflow:hidden;
   position:relative;
@@ -203,7 +205,7 @@ margin-right:auto;*/
 #more{padding:0.5em 1.5em}
 #more{text-align:right}
 #more:before,#more:after{
-   background-color: #5A9E94;
+   background-color: #E2492F;
    -moz-border-radius:0.25em;
    -webkit-border-radius:0.25em;
    border-radius:0.25em;
@@ -230,9 +232,9 @@ margin-right:auto;*/
     transform:rotate(-45deg)
    }
   #more:before{margin-top:-.36em}
-  #more:hover,#more:focus{color:#c00}
+  #more:hover,#more:focus{color:#8B8589}
   #more:hover:before,#more:hover:after,
-  #morE:focus:before,#more:focus:after {background:#c00}
+  #morE:focus:before,#more:focus:after {background:#8B8589}
 
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
