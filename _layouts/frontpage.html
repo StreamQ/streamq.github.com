@@ -12,9 +12,10 @@ layout: default
 {% if ps.image != null %}
 <a href="{{ ps.url }}"><img class="post-img" src="/img/posts/{{ ps.image }}" /></a>
 {% endif %}
-{{ps.content | strip_html | truncatewords:40 }}
+{{ps.content}}
+{% comment %}{{ps.content | strip_html | truncatewords:40 }}{% endcomment %}
 <br /><a href="{{ ps.url }}">Lees het volledige artikel</a>
 </p>
 </article>
 {% endfor %}
-<h2><a id="more" href="blog.html">Meer artikels</a></h2>
+<a  href="blog.html"><img class="more" src="/img/more.png" alt="Meer artikels" /></a>

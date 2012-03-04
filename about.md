@@ -11,4 +11,5 @@ StreamQ wil u helpen bij het integreren van een media hub in uw huis.
 StreamQ  
 Planetariumlaan 97 bus 1  
 2610 Wilrijk  
-info@streamq.be
+[info@streamq.be](mailto:info@streamq.be)  
+BTW: BE 0843.482.801

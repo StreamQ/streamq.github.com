@@ -14,10 +14,11 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" manifest="default.appcache?v=1" lang="en"><!--<![endif]-->
 
 <head>
-<meta charset="utf-8">
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+<meta name="keywords" content="StreamQ,HTPC,Media,Hub,Multimedia,Streaming" />
 
 <title> StreamQ - {{ page.title }}</title>
-<meta name="description" content="">
+<meta name="description" content="StreamQ specialiseert zich in het installeren en ondersteunen van HTPC-systemen, media hubs en het streamen van audio en video naar smartphones en tablets.">
 <meta name="author" content="{{ site.owner-name }}">
 
 {% include boilerplate_css_scripts.html %}
@@ -25,7 +26,9 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 <body class="clearfix">
 
 <header role="banner" class="clearfix topbar" >
-<img src="/img/logo.png" class="logo" />
+<a href="index.html">
+<img src="/img/logo.png" class="logo" alt="StreamQ" />
+</a>
 {% include nav.html %}
 </header>
 <div class="content clearfix">
@@ -36,7 +39,13 @@ URL: http://stuffandnonsense.co.uk/projects/320andup
 </article>
 <div class="col-right">
 <aside role="complementary"> 
-Welkom bij StreamQ, wij specialiseren ons in multimediasystemen voor streaming van video en audio, waar je maar wil.
+<h3>De missie van StreamQ</h3>
+Integratie van computersystemen in de huiskamer maakt nieuwe flexibile manieren van mediaconsumtie mogelijk. We hopen met deze site informatie en ondersteuning te geven aan het brede publiek zodat ook zij thuis kunnen genieten van deze technologie.   
+</aside>
+</div>
+<div class="col-right tagcloud">
+<aside role="complementary"> 
+{% include tag_cloud.html %}
 </aside>
 </div>
 </div>

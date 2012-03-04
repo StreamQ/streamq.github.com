@@ -50,7 +50,7 @@ position: relative;
 margin: 0;
 padding: 0;
 float:left;
-max-width: 10%;
+max-width: 8%;
 }
 
 div.navigation {
@@ -65,7 +65,7 @@ right: 0;
 }
 
 .navigation li {
-font-size: 200%;
+font-size: 180%;
 text-align: left;
 }
 /* 10.CONTENT */

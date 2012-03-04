@@ -1,0 +1,25 @@
+---
+layout: default
+title: "artikels met tag: htpc"
+syntax-highlighting: yes
+---
+  <h3>artikels met tag: htpc</h3>
+  {% for ps in site.posts %}
+		{% for tag in ps.tags %}
+			{%if tag == "htpc" %}
+			<article class="post">
+				<header class="post-header">
+					<h3><a class="postlink" href="{{ ps.url }}">{{ ps.title }}</a></h3>
+					<span class="post-info">Geplaatst op <time datetime="{{ ps.date }}" pubdate>{{ ps.date | date: "%d/%m/%y" }}</time> door {{ ps.author }}</span>
+				</header>
+				<p>
+				{% if ps.image != null %}
+					<img class="post-img" src="/img/posts/{{ ps.image }}" />
+				{%endif%}
+				{{ps.content}}
+				<br /><a href="{{ ps.url }}">Lees het volledige artikel</a>
+				</p>
+			</article>
+			{%endif%}
+		{%endfor%}
+  {% endfor %}
