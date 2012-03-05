@@ -3,6 +3,7 @@ layout: post
 title: De kracht van Plex
 author: Bram Verbruggen
 image: plex.jpg
+comments: true
 tags:
 - plex
 - htpc
