@@ -1,3 +1,5 @@
+#This is the source code of the StreamQ website. The site was created on top of the Jekyll Template with HTML 5 Boilerplate and "320 and up" by Florian Holzner. You can find his original readme below. 
+
 # Jekyll Template with HTML 5 Boilerplate and "320 and up"
 
 ## Thanks
