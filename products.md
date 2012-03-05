@@ -2,6 +2,7 @@
 layout: post
 title: Producten
 image: sq100.jpg
+comments: true
 author: Bram Verbruggen
 ---
 ##SQ-100 Media Hub in aantocht!
