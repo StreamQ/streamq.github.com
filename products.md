@@ -11,7 +11,7 @@ We leggen momenteel de laatste hand aan onze eerste Media Hub hardware. Dit zijn
 * Processor: Intel i3 2120T
 * Opslagruimte: naar keuze tussen 250GB en 1TB
 * Geheugen: 4GB RAM
-* Video: HDMI- en DVI-ingangen 
+* Video: HDMI- en DVI-uitgangen
 * Netwerk: Ethernetpoort en draadloze antenne
 * Ondersteuning voor infrarood afstandbediening
 
